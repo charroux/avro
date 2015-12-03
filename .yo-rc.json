@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "avroDataFormat",
+    "packageName": "org.olabdynamics.avro",
+    "packageFolder": "org/olabdynamics/avro",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "a5fee4cee7c48397083d797ad1d7d80aa3014271",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
